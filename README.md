@@ -51,3 +51,20 @@ Design a Flask API based on the queries.
     *   Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start or start-end range.
     *   When given the start only, calculate TMIN, TAVG, and TMAX for all dates greater than and equal to the start date.
     *   When given the start and the end date, calculate the TMIN, TAVG, and TMAX for dates between the start and end date inclusive.
+    
+    
+##  Other Analyses
+### Temperature Analysis I
+Hawaii is reputed to enjoy mild weather all year. Is there a meaningful difference between the temperature in, for example, June and December?
+*   Use SQLAlchemy or pandas's read_csv().
+*   Identify the average temperature in June at all stations across all available years in the dataset as well as for December temperature.
+*   Use the t-test to determine whether the difference in the means, if any, is statistically significant. Will you use a paired t-test, or an unpaired t-test? Why?
+
+### Temperature Analysis II
+*   Use the calc_temps function to calculate the min, avg, and max temperatures for your trip using the matching dates from the previous year (i.e., use "2017-01-01" if your trip start date was "2018-01-01").
+*   Plot the min, avg, and max temperature from your previous query as a bar chart.
+*   Use the average temperature as the bar height.
+*   Use the peak-to-peak (tmax-tmin) value as the y error bar (yerr).
+![trip_avg](https://github.com/ofunkey/Advanced_Data_Storage_and_Retrieval/blob/master/Surfs%20Up/Images/trip_avg_temp.png)
+
+
