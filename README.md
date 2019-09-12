@@ -1,5 +1,8 @@
 # Advanced_Data_Storage_and_Retrieval - Surfs Up!
-Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
+
+![surfs_up](https://github.com/ofunkey/Advanced_Data_Storage_and_Retrieval/blob/master/Surfs%20Up/Images/surfs-up.png)
+
+In this project, some climate analysis is done for a trip to a long holiday vacation in Honolulu, Hawaii! And the following steps were taken:
 
 ## 1 - Climate Analysis and Exploration
 In this analysis, Python, SQLAlchemy and Matplotlib are used for the data exploration of your climate database. 
