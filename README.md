@@ -1,4 +1,4 @@
-# Advanced_Data_Storage_and_Retrieval - Surfs Up!
+# Surfs Up!
 
 ![surfs_up](https://github.com/ofunkey/Advanced_Data_Storage_and_Retrieval/blob/master/Surfs%20Up/Images/surfs-up.png)
 
