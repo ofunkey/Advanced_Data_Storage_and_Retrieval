@@ -80,4 +80,4 @@ Hawaii is reputed to enjoy mild weather all year. Is there a meaningful differen
 ![daily_rain](https://github.com/ofunkey/Advanced_Data_Storage_and_Retrieval/blob/master/Surfs%20Up/Images/daily_normals.png)
 
 
-#### Funke Olaleye | Data Analytics and Visualization
+### Funke Olaleye | Data Analytics and Visualization
