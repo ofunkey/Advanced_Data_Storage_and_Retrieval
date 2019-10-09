@@ -6,13 +6,14 @@ In this project, some climate analysis is done for a trip to a long holiday vaca
 
 ## 1 - Climate Analysis and Exploration
 In this analysis, Python, SQLAlchemy and Matplotlib are used for the data exploration of your climate database. 
-* Database: hawaii.sqlite file
-* Create_engine to connect to your sqlite database using SQLAlchemy.
-* Reflect the tables into classes and save a reference to those classes
+* First, use a database, hawaii.sqlite file and then
+* Choose a start date and end date for the trip
+* Use SQLAlchemy `create_engine` to connect to the sqlite database using SQLAlchemy.
+* Use SQLAlchemy `automap_base()` to Reflect the tables into classes and save a reference to these classes
 
 ### Precipitation Analysis
-* Retrieve the last 12 months of precipitation data.
-* Select only the date and prcp values.
+* Design a query to retrieve the last 12 months of precipitation data.
+* Select only the `date` and `prcp` values.
 * Load the query results into a Pandas DataFrame and set the index to the date column.
 * Sort the DataFrame values by date.
 * Plot the results using the DataFrame plot method.
@@ -21,7 +22,7 @@ In this analysis, Python, SQLAlchemy and Matplotlib are used for the data explor
 ![prep ](https://github.com/ofunkey/Advanced_Data_Storage_and_Retrieval/blob/master/Surfs%20Up/Images/precipitation.png)
 
 ### Station Analysis
-* Calculate the total number of stations.
+* Design a query to calculate the total number of stations.
 * Find the most active stations.
 * List the stations and observation counts in descending order.
 * Which station has the highest number of observations?
@@ -58,7 +59,7 @@ Design a Flask API based on the queries.
 Hawaii is reputed to enjoy mild weather all year. Is there a meaningful difference between the temperature in, for example, June and December?
 *   Use SQLAlchemy or pandas's read_csv().
 *   Identify the average temperature in June at all stations across all available years in the dataset as well as for December temperature.
-*   Use the t-test to determine whether the difference in the means, if any, is statistically significant. Will you use a paired t-test, or an unpaired t-test? Why?
+*   Use the t-test to determine whether the difference in the means and why?, if there any statistically significant.
 
 ### Temperature Analysis II
 *   Use the calc_temps function to calculate the min, avg, and max temperatures for your trip using the matching dates from the previous year (i.e., use "2017-01-01" if your trip start date was "2018-01-01").
